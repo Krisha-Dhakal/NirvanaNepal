@@ -1,0 +1,17 @@
+body{
+    
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+/* img{
+    width: 100;
+} */
+.billboard img {
+    width: 100%;
+    
+}
+.billboard__item{
+    height: 100vh;
+    background: linear-gradient(rgb(93, 93, 126), rgb(67, 67, 196));
+}
