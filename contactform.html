@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>contactform</title>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+    <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/conttact.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+
+</head>
+<body>
+    
+
+    <div class="pcontact-block clearfix">       
+        <div class="form_fill clearfix">
+            <h2 class="form_fill_title">CONTACT US</h2>
+            
+            <div class="form--text">
+                <p>Please fill the form given below</p>
+            </div>
+            <hr>
+            <form action="#" method="get" name="contact_form">       
+                <ul class="contact-fill">
+                  
+                    <li>   
+                        <label for="fname">NAME </label> <br/>            
+                        <input type="text" name="Fullname" value="" placeholder="First *" id="fname" required="required" />
+                        <input type="text" name="Fullname" value="" placeholder="Last " id="fname"  />
+                    </li>
+                    <li>
+                        <label for="address">ADDRESS</label> <br/>
+                        <select name="address" id="paddress" >
+                        <option>Continent Name</option>
+                        <option value="1">Asia</option>
+                        <option value="1">Europe</option>
+                        <option value="1">North America</option>
+                        <option value="1">South America</option>
+                        <option value="1">Antartica</option>
+                        <option value="1">Africa</option>
+                        <option value="1">Australia</option>
+                        </select>
+                        <input type="text" name="address" value="" placeholder="Country"  id="address" required="required" />
+                    </li>
+                    <li>
+                        <label for="email">E-MAIL</label> <br/>
+                        <input type="email" name="email" value="" placeholder="eg:info@gmail.com *"  id="email" required="required" />
+                    </li>
+                    <li>
+                        <label for="phone1">Phone No.</label> <br/>
+                        <input type="phone" name="phone" value="" placeholder="With Country Code *"  id="phone" required="required"/>
+                    </li>
+                    <li>
+                        <label for="exampleDataList" class="form-label">How Do You Want To Be Guided</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Select your option">
+                        <datalist id="datalistOptions">
+                        <option value="Message">
+                        <option value="Phone call">
+                        <option value="Email">
+                        </datalist>
+                    </li>
+                </BR>
+                    <li>
+                        <label for="message">MESSAGE</label> <br/>
+                        <textarea name="message" id="message" cols="60" rows="60" id="message" placeholder="write message here..."></textarea>
+                    </li>
+                    <li>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Travel Alone
+                        </label>
+                      </div>
+                    </li>
+                      <li><div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Travel With Family
+                        </label>
+                      </div>
+                    </li>
+                      <li><div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Travel With Partner
+                        </label>
+                      </div></li>
+                      <br>
+                      <li><label for="customRange1" class="form-label">Budget</label>
+                        <input type="range" class="form-range" id="customRange1"></li>
+                      
+                </ul>
+                
+                    <div class="botton-group">
+                    <button type="submit" name="submit" id="submit"> Submit Data</button> 
+                <!-- <input type="reset" name="reset" id="reset" value="Reset Data" /> -->
+                    </div>
+                    
+            </form> 
+        </div>
+
+
+        <div class="go-back">
+            <a href="index1.html" title="go back" class="button">GO BACK </a>
+        </div>
+    </div>
+
+    <div class="footer-block">
+        <div class="footer__top">
+            <div class="footer__content clearfix">
+                    <div class="col col3">
+                        <div class="footer__text1">
+                            <div class="content-box1">
+                                <h4 class="institute_name">NIRVANA NEPAL</h4>
+                                    <ul class="footer-list1">
+                                        <li><h class="institute_location">Kathmandu, Nepal</h></li>
+                                        <li><h class="institute_streetname">44600</h></li>
+                                    </ul>
+                                    <ul class="phone">
+                                        <!-- <li>
+                                            <a href="#" title="phone">
+                                                <svg aria-hidden="true" role="img" width="32" height="32">
+                                                    <use xlink:href="#phone" x="0" y="0"></use>  
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li><h class="footer-phone">+977 9858641259</h></li> -->
+                                        <li class="icon-call"><a href="#" title="Call">
+                                            <svg aria-hidden="true" role="img" width="32" height="32">
+                                                <use xlink:href="#icon-call" x="0" y="0"></use>
+                                            </svg>
+                                        </a></li>
+                                        <!-- <li><h5 class="call">01-5007672, +977-9861566979</h5></li><br> -->
+                                        <li><h class="footer-phone">+977 9858641259</h></li>
+                                    </ul>
+                                    <ul class="location">
+                                        <li>
+                                            <a href="#" title="location">
+                                                <svg aria-hidden="true" role="img" width="32" height="32">
+                                                    <use xlink:href="#location" x="0" y="0"></use>  
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li><h class="footer-location">MAP / DIREECTION</h></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col3 ">
+                            <div class="footer__text2">
+                                <div class="content-box2">
+                                    <h4 class="links">OTHER SITES</h4>
+                                    <ul class="footer-list2">
+                                        <li><a href="index1.html" title="Home">Home</a></li>
+                                        <li><a href="#festival" title="web_design">Photo Nepal</a></li>
+                                        <li><a href="page.html" title="Our Services">Our Services</a></li>
+                                        <li><a href="page.html" title="Blog">Nepal Now</a></li>
+                                        <li><a href="page.html" title="digital_marketing">Great Himalayas</a></li>   
+                                        <li><a href="page.html" title="about_us">About Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>  
+                    </div>  
+                    <div class="col col6 ">
+                            <div class="footer__text3">
+                                <div class="content-box3">
+                                        <div class="footer-list3">
+                                            <h class="advice">WANT OUR BEST TRAVEL TIPS?</h>
+                                            <p>Looking for Nepal travel tips? You've come to the perfect place! From visa info to trekking tips, culture to accommodation, here are all the essential things you need to know before travelling to Nepal.
+                                                 You are one step away from solution </p>
+                                        </div>
+                                        <div class="footer-email-form">
+                                            <input type="email" name="email" value="" placeholder="Your E-mail"  id="femail" />
+                                            <button type="submit" name="submit" id="fbtn"> SIGN  UP</button> 
+                                            
+                                        </div>                    
+                                </div>    
+                            </div>  
+                    </div>                   
+            </div>  
+        </div> 
+
+        <div class="footer__bottom">
+            <div class="footer__content">
+                <div class="footer__bottom__text">
+                    <p>&copy 2020, all right reserved
+                        Nirvana Nepal/ All rights reserved / Privacy</p>
+                </div>
+            </div>
+        </div>                              
+    </div> 
+   
+        <!-- <div class="footer-block">
+            <div class="footer__top">
+                <div class="footer__content clearfix">
+                        <div class="col col3">
+                            <div class="footer__text1">
+                                <div class="content-box1">
+                                    <h4 class="institute_name">NIRVANA NEPAL</h4>
+                                        <ul class="footer-list1">
+                                            <li><h class="institute_location">Kathmandu, Nepal</h></li>
+                                            <li><h class="institute_streetname">44600</h></li>
+                                        </ul>
+                                        <ul class="phone">
+                                            <li>
+                                                <a href="#" title="phone">
+                                                    <svg aria-hidden="true" role="img" width="32" height="32">
+                                                        <use xlink:href="#phone" x="0" y="0"></use>  
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li><h class="footer-phone">+977 9858641259</h></li>
+                                        </ul>
+                                        <ul class="location">
+                                            <li>
+                                                <a href="#" title="location">
+                                                    <svg aria-hidden="true" role="img" width="32" height="32">
+                                                        <use xlink:href="#location" x="0" y="0"></use>  
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li><h class="footer-location">MAP / DIREECTION</h></li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col3 ">
+                                <div class="footer__text2">
+                                    <div class="content-box2">
+                                        <h4 class="links">OTHER SITES</h4>
+                                        <ul class="footer-list2">
+                                            <li><a href="page.html" title="Home">Home</a></li>
+                                            <li><a href="page.html" title="web_design">Photo Nepal</a></li>
+                                            <li><a href="page.html" title="Our Services">Our Services</a></li>
+                                            <li><a href="page.html" title="Blog">Nepal Now</a></li>
+                                            <li><a href="page.html" title="digital_marketing">Great Himalayas</a></li>   
+                                            <li><a href="page.html" title="about_us">About Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>  
+                        </div>  
+                        <div class="col col6 ">
+                                <div class="footer__text3">
+                                    <div class="content-box3">
+                                            <div class="footer-list3">
+                                                <h class="advice">WANT OUR BEST TRAVEL TIPS?</h>
+                                                <p>Looking for Nepal travel tips? You've come to the perfect place! From visa info to trekking tips, culture to accommodation, here are all the essential things you need to know before travelling to Nepal.
+                                                     You are one step away from solution </p>
+                                            </div>
+                                            <div class="footer-email-form">
+                                                <input type="email" name="email" value="" placeholder="Your E-mail"  id="femail" />
+                                                <button type="submit" name="submit" id="fbtn"> SIGN  UP</button> 
+                                                
+                                            </div>                    
+                                    </div>    
+                                </div>  
+                        </div>                   
+                </div>  
+            </div> 
+
+            <div class="footer__bottom">
+                <div class="footer__content">
+                    <div class="footer__bottom__text">
+                        <p>&copy 2020, all right reserved
+                            Nirvana Nepal/ All rights reserved / Privacy</p>
+                    </div>
+                </div>
+            </div>                              
+        </div>                              -->
+
+     
+   
+    <svg xmls="https://www.w3.org/2000/svg" style="width:0; height:0; position: absolute;">
+        <defs>
+            
+            <symbol id="youtube" viewBox="0 0 32 32">  
+                <title>youtube</title>
+                <path fill="currentColor"  d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path>
+            </symbol>
+
+            <symbol id="twitter" viewBox="0 0 32 32">
+                <title>twitter</title>
+                <path fill="currentColor" d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+            </symbol>
+
+            <symbol id="facebook" viewBox="0 0 32 32">
+                <title>facebook</title>
+                <path fill="currentColor" d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+            </symbol>
+
+            <symbol id="linkedin" viewBox="0 0 32 32">
+                <title>linkedin</title>
+                <path fill="currentColor" d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
+                <path fill="currentColor" d="M2 12h6v18h-6v-18z"></path>
+                <path fill="currentColor" d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+            </symbol>
+
+            <symbol id="instagram" viewBox="0 0 32 32">
+                <title>instagram</title>
+                <path fill="currentColor" d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
+                <path fill="currentColor" d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
+                 <path fill="currentColor" d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
+            </symbol>
+
+            <symbol id="user" viewbox="0 0 32 32">
+                <title>user</title>
+                <path fill="currentcolor" d="M18 22.082v-1.649c2.203-1.241 4-4.337 4-7.432 0-4.971 0-9-6-9s-6 4.029-6 9c0 3.096 1.797 6.191 4 7.432v1.649c-6.784 0.555-12 3.888-12 7.918h28c0-4.030-5.216-7.364-12-7.918z"></path>
+            </symbol>
+
+            <symbol id="calender" viewbox="0 0 32 32" >
+                <title>calendar</title>
+                <path fill="currentcolor" d="M10 12h4v4h-4zM16 12h4v4h-4zM22 12h4v4h-4zM4 24h4v4h-4zM10 24h4v4h-4zM16 24h4v4h-4zM10 18h4v4h-4zM16 18h4v4h-4zM22 18h4v4h-4zM4 18h4v4h-4zM26 0v2h-4v-2h-14v2h-4v-2h-4v32h30v-32h-4zM28 30h-26v-22h26v22z"></path>
+            </symbol>
+            
+            <symbol id="icon-call" viewbox="0 0 32 32" >
+                <title>phone</title>
+                <path fill="currentcolor" d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z"></path>
+            </symbol>
+
+            <symbol id="location" viewbox="0 0 32 32" >
+                <title>location</title>
+                <path fill="currentcolor" d="M16 0c-5.523 0-10 4.477-10 10 0 10 10 22 10 22s10-12 10-22c0-5.523-4.477-10-10-10zM16 16c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6z"></path>
+            </symbol>
+            
+        </defs>
+    </svg>
+  
+    </body>
+    </html>
